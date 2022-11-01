@@ -1,0 +1,21 @@
+name: 'jaffle_shop'
+version: '2.0.0'
+config-version: 2
+profile: 'jaffle_shop'
+source-paths: ["models"]
+analysis-paths: ["analysis"]
+test-paths: ["tests"]
+data-paths: ["data"]
+macro-paths: ["macros"]
+
+target-path: "target"
+clean-targets:
+    - "target"
+    - "dbt_modules"
+    - "logs"
+
+models:
+  jaffle_shop:
+      materialized: table
+      staging:
+        materialized: view
