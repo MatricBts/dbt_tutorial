@@ -3,7 +3,7 @@ jaffle_shop:
   outputs:
     dev:
       type: postgres
-      host: 172.17.0.3
+      host: localhost
       user: postgres
       password: '1234'
       port: 5432

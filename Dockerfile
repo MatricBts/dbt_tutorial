@@ -8,4 +8,4 @@ RUN pip3 install -r requirements.txt
 
 COPY ./jaffle_shop .
 
-CMD ["dbt", "run"]
+CMD ["dbt", "run"]["dbt", "test"]
