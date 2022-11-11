@@ -1,7 +1,7 @@
-name: 'jaffle_shop'
+name: 'socialminer'
 version: '2.0.0'
 config-version: 2
-profile: 'jaffle_shop'
+profile: 'socialminer'
 source-paths: ["models"]
 analysis-paths: ["analysis"]
 test-paths: ["tests"]
@@ -15,7 +15,7 @@ clean-targets:
     - "logs"
 
 models:
-  jaffle_shop:
+  socialminer:
       materialized: table
       staging:
         materialized: view
