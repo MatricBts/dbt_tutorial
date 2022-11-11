@@ -6,11 +6,11 @@ Try running the following commands:
 
 - `dbt seed` - Cria tabelas usando como base planilhas .csv, é melhor utilizados para dados estaticos
 
-- `dbt run` - Para gerar tabelas e view utilizando comando SQL
+- `dbt run` - Gera tabelas e view utilizando arquivos SQL
 
-- `dbt test` - Confirma se tá tudo okay, é meio que um atalho pra n precisar rodar o run e o seed
+- `dbt test` - Confirma se tá tudo certo no projeto. Ele é executado após os comandos de criação ( ex. `dbt run`, `dbt seed`.. ).
 
-- `dbt docs generate` - Cria uma documentação referente a estrutura do dbt, trazendo informações sobre a tabelas do banco
+- `dbt docs generate` - Cria uma documentação referente a estrutura do dbt, trazendo informações sobre as tabelas do banco
 
 - `dbt docs serve` - Abre a doc no browser normalmente rodando na porta 8000
 
