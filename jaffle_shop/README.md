@@ -4,17 +4,17 @@ Welcome to your new dbt project!
 
 Try running the following commands:
 
-- `dbt seed` Cria tabelas usando como base planilhas .csv, é melhor utilizados para dados estaticos
+- `dbt seed` - Cria tabelas usando como base planilhas .csv, é melhor utilizados para dados estaticos
 
-- `dbt run` Para gerar tabelas e view utilizando comando SQL
+- `dbt run` - Para gerar tabelas e view utilizando comando SQL
 
-- `dbt test` Confirma se tá tudo okay, é meio que um atalho pra n precisar rodar o run e o seed
+- `dbt test` - Confirma se tá tudo okay, é meio que um atalho pra n precisar rodar o run e o seed
 
-- `dbt docs generate` Cria uma documentação referente a estrutura do dbt, trazendo informações sobre a tabelas do banco
+- `dbt docs generate` - Cria uma documentação referente a estrutura do dbt, trazendo informações sobre a tabelas do banco
 
-- `dbt docs serve` Abre a doc no browser normalmente rodando na porta 8000
+- `dbt docs serve` - Abre a doc no browser normalmente rodando na porta 8000
 
-- `dbt clean` = limpa os arquivos selecionados no `dbt-project.yml` na parte clean-target
+- `dbt clean` - limpa os arquivos selecionados no `dbt-project.yml` na parte clean-target
 
 
 ### Resources:
