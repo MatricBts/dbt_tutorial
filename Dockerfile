@@ -8,4 +8,5 @@ RUN pip3 install -r requirements.txt
 
 COPY ./jaffle_shop .
 
-CMD ["dbt", "run"]["dbt", "test"]
+EXPOSE 3000
+CMD echo "-------- RODANDO DBT BUILD" ; dbt build ; echo "-------- RODANDO DBT SEED" ; dbt seed ; echo "-------- RODANDO DBT RUN" ; dbt run ; echo "-------- RODANDO DBT TESTE" ; dbt test;
